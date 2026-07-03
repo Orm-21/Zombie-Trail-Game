@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Tiny5&display=swap');
+
+body {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    user-select: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: lightgreen;
+}
+
+.input-box {
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    width: 50%;
+}
+
+.input-box:focus {
+    outline: none;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.store-header {
+    text-align: center;
+    border-bottom: 3px solid red;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.store-date {
+    text-align: center;
+}
+
+.store-table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.store-table td {
+    padding: 4px 16px;
+}
+
+.store-divider {
+    border: 2px solid red;
+    width: 80%;
+    margin: 10px 0;
+}
